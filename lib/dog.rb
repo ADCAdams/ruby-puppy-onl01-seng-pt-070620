@@ -5,9 +5,9 @@ class Dog
   attr_accessor :name
   
   def initialize(newName)
-    puts "newName is #{newName}"
+    #puts "newName is #{newName}"
     @name = newName
-    @@all << @name 
+    @@all << self 
     
   end 
   
